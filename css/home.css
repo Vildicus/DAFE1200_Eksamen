@@ -1,73 +1,72 @@
-.row-top{
+.row-top {
     float: left;
-    
 }
 
-.row-top__content{
-width: 100%;
-float: left;
+.row-top__content {
+    width: 100%;
+    float: left;
 }
 
-.text-container{
+.text-container {
     width: 50%;
     float: right;
-
-
+    padding: 50px
 }
-.text-container--left{
+
+.text-container--left {
     float: left;
-
 }
 
-.text-container__header{
-
+.text-container__header {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.text-container__header--center{
-    text-align: center;
-
-}
-
-.text-container__paragraph{
-
-}
-
-.text-container__paragraph--center{
+.text-container__header--center {
     text-align: center;
 }
 
-.text-container__button{
-
+.text-container__paragraph {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.text-container__button--center{
+.text-container__paragraph--center {
     text-align: center;
-
 }
-.image-container{
+
+.text-container__button {
+    border-radius: 25px;
+    background: rgb(230, 0, 0);
+    padding: 20px;
+    width: 210px;
+    height: 60px;
+    color: white;
+}
+
+.text-container__button--center {
+    text-align: center;
+}
+
+.image-container {
     width: 50%;
     float: left;
-
+    border: 2px solid rgb(230, 0, 0);
+    box-shadow: 0 4px 8px 0;
 }
 
-.image-container--right{
+.image-container--right {
     float: right;
-
 }
 
-.image-container--full-width{
+.image-container--full-width {
     width: 100%;
-
 }
 
-.row-top__down-arrow{
+.row-top__down-arrow {
     width: 100%;
     float: left;
-
 }
 
-.row{
+.row {
     width: 100%;
     float: left;
-
 }
