@@ -7,9 +7,20 @@
     float: left;
 }
 
+.row-top__text-container{
+    width: 50%;
+    float: left;
+    padding: 50px  
+}
+
 .row-top__image-container {
     width: 50%;
     float: right;
+    
+}
+
+.row-top__car-train-image-container{
+    width: 100%;
 }
 
 .text-container {
@@ -18,9 +29,6 @@
     padding: 50px
 }
 
-.text-container--left {
-    float: left;
-}
 
 .text-container__header {
     font-family:  Arial, Helvetica, sans-serif;
@@ -39,7 +47,8 @@
 }
 
 .text-container__button {
-    border-radius: 25px;
+    border-radius: 30px;
+    text-align: center;
     background: rgb(230, 0, 0);
     padding: 20px;
     width: 210px;
@@ -49,13 +58,14 @@
 }
 
 .text-container__button--center {
-    text-align: center;
+    
+    margin: auto;
 }
 
 .image-container {
     width: 50%;
     float: left;
-    padding: 50px;
+    padding: 100px;
 }
 
 
@@ -65,9 +75,7 @@
 }
 
 
-.image-container--full-width {
-    width: 100%;
-}
+
 
 .row-top__down-arrow {
     width: 100%;

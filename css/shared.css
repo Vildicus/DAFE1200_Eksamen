@@ -29,10 +29,11 @@ img {
 a:link {
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 
 a:visited {
-    color: hotpink;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
