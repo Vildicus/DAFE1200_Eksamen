@@ -53,6 +53,11 @@
     box-shadow: 0 4px 8px 0;
 }
 
+.image-container--border-shadow {
+    border: 2px solid rgb(230, 0, 0);
+    box-shadow: 0 4px 8px 0;
+}
+
 .image-container--right {
     float: right;
 }
