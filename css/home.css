@@ -16,7 +16,6 @@
 .row-top__image-container {
     width: 50%;
     float: right;
-    
 }
 
 .row-top__car-train-image-container{
@@ -36,6 +35,7 @@
 
 .text-container__header--center {
     text-align: center;
+    
 }
 
 .text-container__paragraph {
