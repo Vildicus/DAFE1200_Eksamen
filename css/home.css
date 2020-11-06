@@ -50,6 +50,7 @@
     border-radius: 30px;
     text-align: center;
     background: rgb(230, 0, 0);
+    box-shadow: 3px 3px 6px 0px black;
     padding: 20px;
     width: 210px;
     height: 60px;
@@ -71,7 +72,7 @@
 
 .image-container__image--border-shadow {
     border: 2px solid rgb(230, 0, 0);
-    box-shadow: 0 4px 8px 0;
+    box-shadow: 3px 3px 6px 0px black;
 }
 
 
