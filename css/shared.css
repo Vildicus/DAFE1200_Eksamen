@@ -34,9 +34,6 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-.margin_top {
-  margin-top: 50px;
-}
 
 .header {
     background-color: teal;
@@ -69,4 +66,8 @@ a:active {
 .header__link:hover {
     background: red;
     color: hotpink;
+}
+
+.margin_top {
+  margin-top: 50px;
 }
