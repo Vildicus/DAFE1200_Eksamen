@@ -35,6 +35,10 @@ a:active {
     text-decoration: underline;
 }
 
+main{
+    margin-top: 50px;
+}
+
 .header {
     background-color: teal;
     height: 50px;

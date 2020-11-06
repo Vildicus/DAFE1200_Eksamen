@@ -1,15 +1,21 @@
 .row-top{
+    float: left;
     
 }
 
 .row-top__content{
-
+width: 100%;
+float: left;
 }
 
 .text-container{
+    width: 50%;
+    float: right;
+
 
 }
 .text-container--left{
+    float: left;
 
 }
 
@@ -18,6 +24,7 @@
 }
 
 .text-container__header--center{
+    text-align: center;
 
 }
 
@@ -26,7 +33,7 @@
 }
 
 .text-container__paragraph--center{
-
+    text-align: center;
 }
 
 .text-container__button{
@@ -34,24 +41,33 @@
 }
 
 .text-container__button--center{
-    
+    text-align: center;
+
 }
 .image-container{
+    width: 50%;
+    float: left;
 
 }
 
 .image-container--right{
+    float: right;
 
 }
 
 .image-container--full-width{
+    width: 100%;
 
 }
 
 .row-top__down-arrow{
+    width: 100%;
+    float: left;
 
 }
 
 .row{
+    width: 100%;
+    float: left;
 
 }
