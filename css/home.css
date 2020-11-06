@@ -7,6 +7,11 @@
     float: left;
 }
 
+.row-top__image-container {
+    width: 50%;
+    float: right;
+}
+
 .text-container {
     width: 50%;
     float: right;
@@ -18,7 +23,7 @@
 }
 
 .text-container__header {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 
 .text-container__header--center {
@@ -40,6 +45,7 @@
     width: 210px;
     height: 60px;
     color: white;
+    font-family: lato-bold, Arial, Helvetica, sans-serif;
 }
 
 .text-container__button--center {
@@ -49,18 +55,15 @@
 .image-container {
     width: 50%;
     float: left;
+    padding: 50px;
+}
+
+
+.image-container__image--border-shadow {
     border: 2px solid rgb(230, 0, 0);
     box-shadow: 0 4px 8px 0;
 }
 
-.image-container--border-shadow {
-    border: 2px solid rgb(230, 0, 0);
-    box-shadow: 0 4px 8px 0;
-}
-
-.image-container--right {
-    float: right;
-}
 
 .image-container--full-width {
     width: 100%;
