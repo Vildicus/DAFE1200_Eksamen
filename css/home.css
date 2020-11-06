@@ -26,7 +26,7 @@
 .text-container {
     width: 50%;
     float: right;
-    padding: 50px
+    padding: 100px 50px;
 }
 
 
@@ -65,7 +65,7 @@
 .image-container {
     width: 50%;
     float: left;
-    padding: 100px;
+    padding: 100px 50px;
 }
 
 
