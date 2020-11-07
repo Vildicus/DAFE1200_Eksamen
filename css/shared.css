@@ -30,30 +30,6 @@ img {
     width: 100%;
 }
 
-a:link {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: hotpink;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:active {
-    color: hotpink;
-    background-color: transparent;
-    text-decoration: none;
-}
-
 main {
     margin-top: 50px;
 }
@@ -65,6 +41,11 @@ main {
     width: 100%;
     top: 0;
     z-index: 1;
+}
+
+.header__logo {
+    width: 50px;
+    float: left;
 }
 
 .header__link-container {
@@ -81,14 +62,27 @@ main {
     text-decoration: none;
 }
 
-.header__logo {
-    width: 50px;
-    float: left;
+.header__link:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header__link:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .header__link:hover {
+    background-color: transparent;
     text-shadow: 2px 2px 5px;
     color: rgb(255, 0, 0);
+}
+
+.header__link:active {
+    color: hotpink;
+    background-color: transparent;
 }
 
 .footer{
@@ -98,4 +92,5 @@ main {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgb(255, 0, 0);
+    color: white;
 }
