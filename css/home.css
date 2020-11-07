@@ -89,7 +89,8 @@
     background: rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px #bbbbbb;
     padding: 20px;
-    width: fit-content;
+    width: 250px; /* For nettlesere uten fit-content (eks ie11) */
+    width: fit-content;    
     height: 60px;
     font-family: lato-bold, Arial, Helvetica, sans-serif;
     display: block;
