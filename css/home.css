@@ -19,8 +19,8 @@
 }
 
 .row-top__image-container {
-    width: 50%;
-    float: right;
+    /* width: 50%; */
+    /* float: right; */
     display: none;
 }
 
@@ -35,6 +35,7 @@
 }
 
 /* Animation based on https://stackoverflow.com/a/32306141 */
+
 @keyframes bounce {
     0%, 50% {
         transform: translateY(0) rotate(45deg);
@@ -91,8 +92,9 @@
     background: rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px #bbbbbb;
     padding: 20px;
-    width: 250px; /* For nettlesere uten fit-content (eks ie11) */
-    width: fit-content;    
+    width: 250px;
+    /* For nettlesere uten fit-content (eks ie11) */
+    width: fit-content;
     height: 60px;
     font-family: lato-bold, Arial, Helvetica, sans-serif;
     display: block;
@@ -132,4 +134,52 @@
 .image-container__image--border-shadow {
     border: 1px solid rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px #bbbbbb;
+}
+
+@media only screen and (max-width: 900px) {
+    .row-top__content {
+        background-image: none;
+        height: calc(100vh - 180px);
+    }
+    .row-top__car-train-image-container {
+        display: block;
+    }
+    .row-top__car-train-image {
+        height: 80px;
+        object-fit: cover;
+    }
+    
+.row-top__image-container {
+    /* width: 50%; */
+    /* float: right; */
+    display: block;
+}
+    .image-container {
+        width: 100%;
+        padding: 0;
+    }
+    .text-container {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .text-container__button {
+        margin: auto;
+    }
+    @media only screen and (max-width: 450px) {
+        .row {
+            padding: 25px 50px;
+        }
+        .row-top__content {
+            padding: 0 50px;
+        }
+        @media only screen and (max-width: 350px) {
+            .row {
+                padding: 25px 25px;
+            }
+            .row-top__content {
+                padding: 0 25px;
+            }
+        }
+    }
 }
