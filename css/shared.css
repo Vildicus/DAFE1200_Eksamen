@@ -44,13 +44,50 @@ main {
 }
 
 .header__logo {
-    width: 50px;
+    width: 75px;
     float: left;
+}
+.header__sdg-button {
+    float: right;
+    margin: 14px 16px;
+    border-radius: 30px;
+    text-align: center;
+    background: rgb(230, 0, 0);
+    box-shadow: 3px 3px 6px 0px #bbbbbb;
+    padding: 2px;
+    width: 75px;
+    font-size: 14px;
+    height: 20px;
+    font-family: lato-regular, Arial, Helvetica, sans-serif;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.header__sdg-button--center {
+    margin: auto;
+}
+
+.header__sdg-button:link {
+    color: white;
+}
+
+.header__sdg-button:visited {
+    color: white;
+}
+
+.header__sdg-button:hover {
+    box-shadow: 4px 4px 7px 0px #bbbbbb;
+    color: white;
+    background: rgb(238, 0, 0);
+}
+
+.header__sdg-button:active {
+    color: hotpink;
 }
 
 .header__link-container {
     text-align: center;
-    margin-right: 50px;
 }
 
 .header__link {

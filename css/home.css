@@ -29,9 +29,31 @@
     display: none;
 }
 
-.row-top__down-arrow {
-    background-color: hotpink;
+.scroll-down-container {
     height: 50px;
+    text-align: center;
+}
+
+/* Animation based on https://stackoverflow.com/a/32306141 */
+@keyframes bounce {
+    0%, 50% {
+        transform: translateY(0) rotate(45deg);
+    }
+    25% {
+        transform: translateY(-5px) rotate(45deg);
+    }
+}
+
+.scroll-down-container__arrow {
+    border: solid rgb(230, 0, 0);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    box-shadow: 2px 2px 2px 0px #bbbbbb;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .text-container {
@@ -65,7 +87,7 @@
     border-radius: 30px;
     text-align: center;
     background: rgb(230, 0, 0);
-    box-shadow: 3px 3px 6px 0px black;
+    box-shadow: 3px 3px 6px 0px #bbbbbb;
     padding: 20px;
     width: fit-content;
     height: 60px;
@@ -88,7 +110,7 @@
 }
 
 .text-container__button:hover {
-    box-shadow: 4px 4px 7px 0px black;
+    box-shadow: 4px 4px 7px 0px #bbbbbb;
     color: white;
     background: rgb(238, 0, 0);
     padding: 20px 20px 21px 21px;
@@ -106,9 +128,5 @@
 
 .image-container__image--border-shadow {
     border: 2px solid rgb(230, 0, 0);
-    box-shadow: 3px 3px 6px 0px black;
-}
-
-.row-top__down-arrow {
-    width: 100%;
+    box-shadow: 3px 3px 6px 0px #bbbbbb;
 }
