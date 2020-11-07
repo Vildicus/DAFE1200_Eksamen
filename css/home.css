@@ -1,10 +1,21 @@
-.row-top {
+.row {
+    width: 100%;
     float: left;
+    padding: 0px 100px;
+}
+
+.row-top {
+    width: 100%;
 }
 
 .row-top__content {
     width: 100%;
-    float: left;
+    background-image: url(../img/Tog_og_mobil.png);
+    height: calc(100vh - 100px);    
+    background-repeat: repeat-x;    
+    padding: 0px 100px;
+    background-size: auto 100%;
+    background-position: center;
 }
 
 .row-top__text-container{
@@ -16,16 +27,28 @@
 .row-top__image-container {
     width: 50%;
     float: right;
+    display: none;
 }
 
 .row-top__car-train-image-container{
     width: 100%;
+    display: none;
+}
+
+.row-top__down-arrow{
+    background-color: hotpink;
+    height: 50px;
 }
 
 .text-container {
     width: 50%;
     float: right;
-    padding: 100px 50px;
+    padding: 100px 0px 100px 50px;
+}
+
+.text-container--float-left {
+    float: left;
+    padding: 100px 50px 100px 0px;
 }
 
 
@@ -66,7 +89,7 @@
 .image-container {
     width: 50%;
     float: left;
-    padding: 100px 50px;
+    padding: 100px 50px 100px 0px;
 }
 
 
@@ -79,11 +102,6 @@
 
 
 .row-top__down-arrow {
-    width: 100%;
-    float: left;
-}
-
-.row {
     width: 100%;
     float: left;
 }
