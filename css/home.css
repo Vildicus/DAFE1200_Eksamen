@@ -1,7 +1,7 @@
 .row {
     width: 100%;
-    float: left;
-    padding: 100px;
+    padding: 50px 100px;
+    overflow: hidden;
 }
 
 .row-top {
@@ -107,5 +107,4 @@
 
 .row-top__down-arrow {
     width: 100%;
-    float: left;
 }
