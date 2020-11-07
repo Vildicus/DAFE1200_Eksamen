@@ -1,7 +1,7 @@
 .row {
     width: 100%;
     float: left;
-    padding: 0px 100px;
+    padding: 100px;
 }
 
 .row-top {
@@ -11,17 +11,11 @@
 .row-top__content {
     width: 100%;
     background-image: url(../img/Tog_og_mobil.png);
-    height: calc(100vh - 100px);    
-    background-repeat: repeat-x;    
+    height: calc(100vh - 100px);
+    background-repeat: repeat-x;
     padding: 0px 100px;
     background-size: auto 100%;
     background-position: center;
-}
-
-.row-top__text-container{
-    width: 50%;
-    float: left;
-    padding: 50px  
 }
 
 .row-top__image-container {
@@ -30,12 +24,12 @@
     display: none;
 }
 
-.row-top__car-train-image-container{
+.row-top__car-train-image-container {
     width: 100%;
     display: none;
 }
 
-.row-top__down-arrow{
+.row-top__down-arrow {
     background-color: hotpink;
     height: 50px;
 }
@@ -43,22 +37,20 @@
 .text-container {
     width: 50%;
     float: right;
-    padding: 100px 0px 100px 50px;
+    padding: 0px 0px 0px 50px;
 }
 
-.text-container--float-left {
+.text-container--top {
     float: left;
-    padding: 100px 50px 100px 0px;
+    padding: 50px 50px 0px 0px;
 }
-
 
 .text-container__header {
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .text-container__header--center {
     text-align: center;
-    
 }
 
 .text-container__paragraph {
@@ -75,31 +67,43 @@
     background: rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px black;
     padding: 20px;
-    width: 210px;
+    width: fit-content;
     height: 60px;
-    color: white;
     font-family: lato-bold, Arial, Helvetica, sans-serif;
+    display: block;
+    white-space: nowrap;
 }
 
 .text-container__button--center {
-    
     margin: auto;
+}
+
+.text-container__button:link {
+    color: white;
+}
+
+.text-container__button:visited {
+    color: white;
+}
+
+.text-container__button:hover {
+    color: hotpink;
+}
+
+.text-container__button:active {
+    color: hotpink;
 }
 
 .image-container {
     width: 50%;
     float: left;
-    padding: 100px 50px 100px 0px;
+    padding: 0px 50px 0px 0px;
 }
-
 
 .image-container__image--border-shadow {
     border: 2px solid rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px black;
 }
-
-
-
 
 .row-top__down-arrow {
     width: 100%;
