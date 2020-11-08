@@ -125,7 +125,7 @@
     padding: 0px 50px 0px 0px;
 }
 
-.image-container__image--border-shadow {
+.image-container__image {
     border: 1px solid rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px #bbbbbb;
 }
