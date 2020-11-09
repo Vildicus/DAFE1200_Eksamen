@@ -1,11 +1,11 @@
-.row-top__content {
+
+
+.row-top__content--home {
     width: 100%;
     background-image: url(../img/Tog_og_mobil.png);
-    height: calc(100vh - 100px);
-    background-repeat: repeat-x;
-    padding: 0px 100px;
     background-size: auto 100%;
     background-position: center;
+    background-repeat: repeat-x;
 }
 
 .row-top__car-train-image-container {
