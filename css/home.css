@@ -1,13 +1,3 @@
-.row {
-    width: 100%;
-    padding: 50px 100px;
-    overflow: hidden;
-}
-
-.row-top {
-    width: 100%;
-}
-
 .row-top__content {
     width: 100%;
     background-image: url(../img/Tog_og_mobil.png);
@@ -23,106 +13,16 @@
     display: none;
 }
 
-.scroll-down-container {
-    height: 50px;
-    text-align: center;
-}
-
-/* Animation based on https://stackoverflow.com/a/32306141 */
-
-@keyframes bounce {
-    0%, 50% {
-        transform: translateY(0) rotate(45deg);
-    }
-    25% {
-        transform: translateY(-5px) rotate(45deg);
-    }
-}
-
-.scroll-down-container__arrow {
-    border: solid rgb(230, 0, 0);
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 10px;
-    transform: rotate(45deg);
-    box-shadow: 2px 2px 2px 0px #bbbbbb;
-    animation-name: bounce;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-.text-container {
-    width: 50%;
-    float: right;
-    padding: 0px 0px 0px 50px;
-}
-
-.text-container--top {
-    float: left;
-    padding: 50px 50px 0px 0px;
-}
-
-.text-container__header {
-    font-family: scriptorama-markdown-jf, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .text-container__header--center {
     text-align: center;
-}
-
-.text-container__paragraph {
-    font-size: 16px;
 }
 
 .text-container__paragraph--center {
     text-align: center;
 }
 
-.text-container__button {
-    border-radius: 30px;
-    text-align: center;
-    background: rgb(230, 0, 0);
-    box-shadow: 3px 3px 6px 0px #bbbbbb;
-    padding: 20px;
-    width: 250px;
-    /* For nettlesere uten fit-content (eks ie11) */
-    width: fit-content;
-    height: 60px;
-    font-family: lato-bold, Arial, Helvetica, sans-serif;
-    display: block;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
 .text-container__button--center {
     margin: auto;
-}
-
-.text-container__button:link {
-    color: white;
-}
-
-.text-container__button:visited {
-    color: white;
-}
-
-.text-container__button:hover {
-    box-shadow: 4px 4px 7px 0px #bbbbbb;
-    color: white;
-    background: rgb(238, 0, 0);
-    padding: 20px 20px 21px 21px;
-}
-
-.text-container__button:active {
-    color: hotpink;
-}
-
-.image-container {
-    width: 50%;
-    float: left;
-    padding: 0px 50px 0px 0px;
 }
 
 .image-container__image {

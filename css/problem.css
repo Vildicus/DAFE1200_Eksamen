@@ -1,36 +1,7 @@
-.row {
-    width: 100%;
-    padding: 50px 100px;
-    overflow: hidden;
-}
 
-.row-top {
-    width: 100%;
-}
-
-.scroll-down-container {
-    height: 50px;
-    text-align: center;
-}
-
-.text-container {
-    width: 50%;
-    float: right;
-    padding: 0px 0px 0px 50px;
-}
-
-.text-container--top {
-    float: left;
-    padding: 50px 50px 0px 0px;
-}
-
-.text-container__header {
-    font-family: scriptorama-markdown-jf, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.text-container__paragraph {
-    font-size: 16px;
+.row-top__wheel-image{
+width: 50%;
+float: right;
 }
 
 .text-container--left{

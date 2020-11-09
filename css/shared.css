@@ -134,11 +134,86 @@ main {
     background-color: transparent;
 }
 
-/* Animation based on https://stackoverflow.com/a/32306141 */
+.row {
+    width: 100%;
+    padding: 50px 100px;
+    overflow: hidden;
+}
+
+.row-top {
+    width: 100%;
+}
+
+.text-container {
+    width: 50%;
+    float: right;
+    padding: 0px 0px 0px 50px;
+}
+
+.text-container--top {
+    float: left;
+    padding: 50px 50px 0px 0px;
+}
+
+.text-container__paragraph {
+    font-size: 16px;
+}
+
+.text-container__button {
+    border-radius: 30px;
+    text-align: center;
+    background: rgb(230, 0, 0);
+    box-shadow: 3px 3px 6px 0px #bbbbbb;
+    padding: 20px;
+    width: 250px;
+    /* For nettlesere uten fit-content (eks ie11) */
+    width: fit-content;
+    height: 60px;
+    font-family: lato-bold, Arial, Helvetica, sans-serif;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
+.text-container__button:link {
+    color: white;
+}
+
+.text-container__button:visited {
+    color: white;
+}
+
+.text-container__button:hover {
+    box-shadow: 4px 4px 7px 0px #bbbbbb;
+    color: white;
+    background: rgb(238, 0, 0);
+    padding: 20px 20px 21px 21px;
+}
+
+.text-container__button:active {
+    color: hotpink;
+}
+
+
+.text-container__header {
+    font-family: scriptorama-markdown-jf, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.image-container {
+    width: 50%;
+    float: left;
+    padding: 0px 50px 0px 0px;
+}
+
 .scroll-down-container {
     height: 50px;
     text-align: center;
 }
+
+/* Animation based on https://stackoverflow.com/a/32306141 */
 
 @keyframes bounce {
     0%, 50% {
@@ -160,7 +235,6 @@ main {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-
 .footer {
     bottom: 0;
     width: 100%;
