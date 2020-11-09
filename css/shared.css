@@ -134,6 +134,33 @@ main {
     background-color: transparent;
 }
 
+/* Animation based on https://stackoverflow.com/a/32306141 */
+.scroll-down-container {
+    height: 50px;
+    text-align: center;
+}
+
+@keyframes bounce {
+    0%, 50% {
+        transform: translateY(0) rotate(45deg);
+    }
+    25% {
+        transform: translateY(-5px) rotate(45deg);
+    }
+}
+
+.scroll-down-container__arrow {
+    border: solid rgb(230, 0, 0);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    box-shadow: 2px 2px 2px 0px #bbbbbb;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 .footer {
     bottom: 0;
     width: 100%;
