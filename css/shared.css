@@ -239,7 +239,6 @@ main {
 .footer {
     bottom: 0;
     width: 100%;
-    align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgb(255, 0, 0);
