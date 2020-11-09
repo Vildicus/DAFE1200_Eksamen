@@ -3,6 +3,14 @@
     font-size: smaller;
 }
 
+.header--blue{
+    background-color:rgb(232, 249, 251);
+}
+
+.row-top--blue{
+    background-color: rgb(232, 249, 251)
+}
+
 .row-top__wheel-image{
 width: 50%;
 float: right;
