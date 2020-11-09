@@ -21,5 +21,18 @@ float: right;
 }
 
 .background-image-container{
+   
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.background-image-container--bilko{
+    background-image: url(../img/Bilkø.png);
+}
+
+.background-image-container-city{
+    background-image: url(../img/Bybilde.png);
 }
