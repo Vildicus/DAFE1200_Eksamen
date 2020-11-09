@@ -67,9 +67,6 @@ main {
     text-decoration: none;
 }
 
-.header__sdg-button--center {
-    margin: auto;
-}
 
 .header__sdg-button:link {
     color: white;
@@ -160,6 +157,12 @@ main {
     padding: 50px 50px 0px 0px;
 }
 
+.text-container__header {
+    font-family: scriptorama-markdown-jf, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .text-container__paragraph {
     font-size: 16px;
 }
@@ -198,13 +201,6 @@ main {
 
 .text-container__button:active {
     color: hotpink;
-}
-
-
-.text-container__header {
-    font-family: scriptorama-markdown-jf, sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .image-container {
