@@ -3,30 +3,7 @@
     font-size: smaller;
 }
 
-.header--blue{
-    background-color:rgb(232, 249, 251);
-}
-
-.row-top--blue{
-    background-color: rgb(232, 249, 251)
-}
-
-.row-top__wheel-image{
-width: 50%;
-float: right;
-}
-
-.text-container--left{
-    float: left;
-    padding: 0px 50px 0px 0px;
-}
-
-.image-container--right{
-    float: right;
-    padding: 0px 0px 0px 50px;
-}
-
-.image-container__pie{
+.image-container__red-circle{
 
 }
 

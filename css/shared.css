@@ -45,6 +45,10 @@ main {
     z-index: 1;
 }
 
+.header--blue{
+    background-color:rgb(232, 249, 251);
+}
+
 .header__logo {
     width: 75px;
     float: left;
@@ -146,10 +150,23 @@ main {
     padding: 0px 100px;
 }
 
+.row-top--blue{
+    background-color: rgb(232, 249, 251)
+}
+.row-top__right-image{
+    width: 50%;
+    float: right;
+    }
+
+
 .text-container {
     width: 50%;
     float: right;
     padding: 0px 0px 0px 50px;
+}
+.text-container--left{
+    float: left;
+    padding: 0px 50px 0px 0px;
 }
 
 .text-container--top {
@@ -207,6 +224,11 @@ main {
     width: 50%;
     float: left;
     padding: 0px 50px 0px 0px;
+}
+
+.image-container--right{
+    float: right;
+    padding: 0px 0px 0px 50px;
 }
 
 .scroll-down-container {
