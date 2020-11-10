@@ -10,7 +10,7 @@
     src: url(../fonts/Lato-Bold.ttf);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -45,8 +45,8 @@ main {
     z-index: 1;
 }
 
-.header--blue{
-    background-color:rgb(232, 249, 251);
+.header--blue {
+    background-color: rgb(232, 249, 251);
 }
 
 .header__logo {
@@ -70,7 +70,6 @@ main {
     white-space: nowrap;
     text-decoration: none;
 }
-
 
 .header__sdg-button:link {
     color: white;
@@ -150,13 +149,14 @@ main {
     padding: 0px 100px;
 }
 
-.row-top--blue{
+.row-top--blue {
     background-color: rgb(232, 249, 251)
 }
-.row-top__right-image{
+
+.row-top__right-image {
     width: 50%;
     float: right;
-    }
+}
 
 
 .text-container {
@@ -164,7 +164,8 @@ main {
     float: right;
     padding: 0px 0px 0px 50px;
 }
-.text-container--left{
+
+.text-container--left {
     float: left;
     padding: 0px 50px 0px 0px;
 }
@@ -200,7 +201,6 @@ main {
     text-decoration: none;
 }
 
-
 .text-container__button:link {
     color: white;
 }
@@ -226,7 +226,7 @@ main {
     padding: 0px 50px 0px 0px;
 }
 
-.image-container--right{
+.image-container--right {
     float: right;
     padding: 0px 0px 0px 50px;
 }
@@ -258,6 +258,7 @@ main {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 .footer {
     bottom: 0;
     width: 100%;
