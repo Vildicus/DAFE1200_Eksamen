@@ -153,9 +153,13 @@ main {
     background-color: rgb(232, 249, 251)
 }
 
-.row-top__right-image {
+.row-top__right-image-container {
     width: 50%;
     float: right;
+}
+
+.row-top__right-image-container__image{
+    width: 85%;
 }
 
 
