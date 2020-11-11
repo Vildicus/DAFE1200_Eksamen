@@ -1,5 +1,3 @@
-
-
 .row-top__content--home {
     width: 100%;
     background-image: url(../img/Tog_og_mobil.png);
@@ -25,12 +23,20 @@
     margin: auto;
 }
 
-
 .image-container__image {
     border: 1px solid rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px #bbbbbb;
 }
+
 @media only screen and (max-width: 900px) {
     .row-top__content--home {
         background-image: none;
-    }}
+    }
+    .row-top__car-train-image-container {
+        display: block;
+    }
+    .row-top__car-train-image {
+        height: 80px;
+        object-fit: cover;
+    }
+}
