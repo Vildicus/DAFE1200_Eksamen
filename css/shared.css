@@ -276,11 +276,10 @@ main {
 @media only screen and (max-width: 900px) {
     .row-top__content {
         background-image: none;
-        height: calc(100vh - 180px);
         display: flex;
         flex-direction: column;
     }
-      .row-top__phone-image {
+    .row-top__phone-image {
         background-image: url(../img/App_homepage_mockup.png);
         flex: 1;
         background-repeat: no-repeat;
