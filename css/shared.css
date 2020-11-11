@@ -140,6 +140,10 @@ main {
     overflow: hidden;
 }
 
+.row--blue {
+    background-color: rgb(232, 249, 251); 
+}
+
 .row-top {
     width: 100%;
 }
@@ -150,7 +154,7 @@ main {
 }
 
 .row-top--blue {
-    background-color: rgb(232, 249, 251)
+    background-color: rgb(232, 249, 251);
 }
 
 .row-top__right-image-container {
