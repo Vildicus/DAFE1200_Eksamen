@@ -3,39 +3,16 @@
     font-size: smaller;
 }
 
-.header--blue{
-    background-color:rgb(232, 249, 251);
+.image-container__red-circle {
+    width: 50%;
 }
 
-.row-top--blue{
-    background-color: rgb(232, 249, 251)
+.image-container__text {
+    font-family: Lato-Bold, sans-serif;
+    margin-left: 15px;
 }
 
-.row-top__wheel-image{
-width: 50%;
-float: right;
-}
-
-.text-container--left{
-    float: left;
-    padding: 0px 50px 0px 0px;
-}
-
-.image-container--right{
-    float: right;
-    padding: 0px 0px 0px 50px;
-}
-
-.image-container__pie{
-
-}
-
-.image-container__text{
-
-}
-
-.background-image-container{
-   
+.background-image-container {
     height: 450px;
     background-attachment: fixed;
     background-position: center;
@@ -43,10 +20,20 @@ float: right;
     background-size: cover;
 }
 
-.background-image-container--bilko{
+.background-image-container--bilko {
     background-image: url(../img/Bilkø.png);
 }
 
-.background-image-container-city{
+.background-image-container-city {
     background-image: url(../img/Bybilde.png);
+}
+
+@media only screen and (max-width: 900px) {
+    .image-container__red-circle {
+        margin: auto;
+    }
+    .image-container__text {
+        text-align: center;
+        margin-left: 0px;
+    }
 }
