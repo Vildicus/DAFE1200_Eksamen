@@ -106,6 +106,7 @@ main {
 
 .header__link-container {
     text-align: center;
+    margin-right: 75px;
 }
 
 .header__link {
