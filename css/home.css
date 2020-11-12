@@ -12,11 +12,11 @@
 }
 
 .text-container__header--center {
-    text-align: center;
+    margin: 0 auto;
 }
 
 .text-container__paragraph--center {
-    text-align: center;
+    margin: 0 auto;
 }
 
 .text-container__button--center {

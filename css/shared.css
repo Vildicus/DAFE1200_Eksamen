@@ -24,9 +24,16 @@ body {
     overflow: auto;
 }
 
+h1{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
 h2 {
     margin-top: 0;
+    letter-spacing: 2px;
 }
+
 
 img {
     width: 100%;
@@ -185,7 +192,7 @@ main {
 }
 
 .text-container__header {
-    font-family: scriptorama-markdown-jf, sans-serif;
+    font-family: scriptorama-markdown-jf, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
