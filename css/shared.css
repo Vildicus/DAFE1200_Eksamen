@@ -24,7 +24,7 @@ body {
     overflow: auto;
 }
 
-h1{
+h1 {
     letter-spacing: 2px;
     word-spacing: 3px;
 }
@@ -33,7 +33,6 @@ h2 {
     margin-top: 0;
     letter-spacing: 2px;
 }
-
 
 img {
     width: 100%;
@@ -53,7 +52,7 @@ main {
 }
 
 .header--blue {
-    background-color: rgb(232, 249, 251);
+    background-color: #e8f9fb;
 }
 
 .header__logo {
@@ -133,12 +132,16 @@ main {
 .header__link:hover {
     background-color: transparent;
     text-shadow: 2px 2px 5px;
-    color: rgb(255, 0, 0);
+    color: rgb(228, 0, 0);
 }
 
 .header__link:active {
-    color: hotpink;
+    color: rgb(153, 0, 0);
     background-color: transparent;
+}
+
+.header__link--current:link {
+    text-decoration: underline;
 }
 
 .row {
@@ -148,7 +151,7 @@ main {
 }
 
 .row--blue {
-    background-color: rgb(232, 249, 251); 
+    background-color: rgb(232, 249, 251);
 }
 
 .row-top {
@@ -158,6 +161,24 @@ main {
 .row-top__content {
     height: calc(100vh - 100px);
     padding: 0px 100px;
+}
+
+.row-top__content--home {
+    width: 100%;
+    background-image: url(../img/Tog_og_mobil.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.row-top__car-train-image-container {
+    width: 100%;
+    display: none;
+}
+
+.image-container__image {
+    border: 1px solid rgb(230, 0, 0);
+    box-shadow: 3px 3px 6px 0px #bbbbbb;
 }
 
 .row-top--blue {
@@ -179,6 +200,12 @@ main {
     width: 50%;
     float: right;
     padding: 0px 0px 0px 50px;
+    }
+
+.text-container--center {
+    margin: 0 auto;
+    text-align: center;
+    float: none;
 }
 
 .text-container--left {
@@ -197,8 +224,17 @@ main {
     font-style: normal;
 }
 
+.text-container__header--center {
+    margin: 0 auto;
+}
+
 .text-container__paragraph {
     font-size: 16px;
+    line-height: 1.5;
+}
+
+.text-container__paragraph--center {
+    margin: 0 auto;
 }
 
 .text-container__button {
@@ -217,6 +253,10 @@ main {
     text-decoration: none;
 }
 
+.text-container__button--center {
+    margin: auto;
+}
+
 .text-container__button:link {
     color: white;
 }
@@ -233,7 +273,7 @@ main {
 }
 
 .text-container__button:active {
-    color: hotpink;
+    background: rgb(153, 0, 0);
 }
 
 .image-container {
@@ -280,10 +320,11 @@ main {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(228, 0, 0);
     color: white;
 }
-.footer-left-text{
+
+.footer-left-text {
     width: 20%;
     display: inline-block;
     margin-left: 5%;
@@ -291,13 +332,13 @@ main {
     margin-right: 50%;
 }
 
-.footer-right-text{
+.footer-right-text {
     width: 20%;
     display: inline-block;
     vertical-align: top;
-  }
+}
 
-.footer-text-button{
+.footer-text-button {
     border-radius: 30px;
     text-align: center;
     background: rgb(255, 255, 255);
@@ -312,8 +353,8 @@ main {
     text-decoration: none;
 }
 
-.footer-text-button a{
-    color: rgb(255, 0, 0);
+.footer-text-button a {
+    color: rgb(228, 0, 0);
     text-decoration: none;
 }
 
@@ -326,6 +367,17 @@ main {
         background-image: none;
         display: flex;
         flex-direction: column;
+    }
+    .row-top__content--home {
+        background-image: none;
+        height: calc(100vh - 180px);
+    }
+    .row-top__car-train-image-container {
+        display: block;
+    }
+    .row-top__car-train-image {
+        height: 80px;
+        object-fit: cover;
     }
     .row-top__phone-image {
         background-image: url(../img/App_homepage_mockup.png);
@@ -346,7 +398,7 @@ main {
     .text-container {
         width: 100%;
         padding: 0;
-        text-align: center;
+        text-align: left;
     }
     .text-container__button {
         margin: auto;
