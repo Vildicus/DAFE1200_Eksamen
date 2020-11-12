@@ -317,6 +317,10 @@ main {
     text-decoration: none;
 }
 
+.footer__text {
+    overflow: auto;
+}
+
 @media only screen and (max-width: 900px) {
     .row-top__content {
         background-image: none;
