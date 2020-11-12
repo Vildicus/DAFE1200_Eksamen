@@ -276,6 +276,39 @@ main {
     background-color: rgb(255, 0, 0);
     color: white;
 }
+.footer-left-text{
+    width: 20%;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    margin-right: 50%;
+}
+
+.footer-right-text{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+.footer-text-button{
+    border-radius: 30px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    width: 250px;
+    /* For nettlesere uten fit-content (eks ie11) */
+    width: fit-content;
+    height: 60px;
+    font-family: lato-bold, Arial, Helvetica, sans-serif;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.footer-text-button a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 900px) {
     .row-top__content {
