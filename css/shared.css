@@ -42,6 +42,11 @@ main {
     margin-top: 50px;
 }
 
+.sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
 .header {
     background-color: white;
     height: 50px;
@@ -159,6 +164,10 @@ main {
     width: 100%;
 }
 
+.row--minipod{
+    padding-top: 0;
+}
+
 .row-top__content {
     height: calc(100vh - 100px);
     padding: 0px 100px;
@@ -177,10 +186,6 @@ main {
     display: none;
 }
 
-.image-container__image {
-    border: 1px solid rgb(230, 0, 0);
-    box-shadow: 3px 3px 6px 0px #bbbbbb;
-}
 
 .row-top--blue {
     background-color: rgb(232, 249, 251);
@@ -256,6 +261,11 @@ main {
     margin: 0 auto;
 }
 
+.text-container__paragraph__signature{
+    text-align: right;
+    margin-top: -10px;
+}
+
 .text-container__button {
     border-radius: 30px;
     text-align: center;
@@ -304,6 +314,33 @@ main {
 .image-container--right {
     float: right;
     padding: 0px 0px 0px 50px;
+}
+.image-container__image {
+    border: 1px solid rgb(230, 0, 0);
+    box-shadow: 3px 3px 6px 0px #bbbbbb;
+}
+.image-container__red-circle {
+    width: 50%;
+}
+.image-container__text {
+    font-family: Lato-Bold, sans-serif;
+    margin-left: 15px;
+}
+
+.background-image-container {
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-image-container--bilko {
+    background-image: url(../img/Bilkø.png);
+}
+
+.background-image-container-city {
+    background-image: url(../img/Bybilde.png);
 }
 
 .scroll-down-container {
@@ -410,10 +447,7 @@ main {
         width: 100%;
         padding: 0;
     }
-    .image-container {
-        width: 100%;
-        padding: 0;
-    }
+   
     .text-container {
         width: 100%;
         padding: 0;
@@ -424,6 +458,17 @@ main {
     }
     .text-container__button {
         float:left;
+    }
+    .image-container {
+        width: 100%;
+        padding: 0;
+    }
+    .image-container__red-circle {
+        margin: auto;
+    }
+    .image-container__text {
+        text-align: center;
+        margin-left: 0px;
     }
     @media only screen and (max-width: 450px) {
         .row {
