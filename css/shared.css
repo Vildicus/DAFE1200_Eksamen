@@ -91,6 +91,7 @@ main {
 }
 
 .header__sdg-button:hover {
+    box-shadow: 4px 4px 7px 0px #bbbbbb;
     color: white;
     background: rgb(238, 0, 0);
 }
@@ -136,7 +137,7 @@ main {
 
 .header__link:hover {
     background-color: transparent;
-    text-shadow: 2px 2px 5px;
+    
     color: rgb(228, 0, 0);
 }
 
