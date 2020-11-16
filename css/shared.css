@@ -25,15 +25,18 @@ body {
 }
 
 h1 {
-    letter-spacing: 2px;
-    word-spacing: 3px;
-    font-size: 60px
+    /* backup */
+    font-size: 60px;
+    font-size: 9vh;
+    font-weight: 800;
+    line-height: 1.1;
 }
 
 h2 {
     margin-top: 0;
-    letter-spacing: 2px;
-    font-size: 42px
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.1;
 }
 
 img {
@@ -44,8 +47,13 @@ main {
     margin-top: 50px;
 }
 
-.top_p{
-  font-size: 20px
+.top_p {
+    font-size: 20px;
+    font-size: 3vh;
+}
+
+.top_p--white-background {
+    background: white;
 }
 
 .sup {
@@ -143,7 +151,6 @@ main {
 
 .header__link:hover {
     background-color: transparent;
-
     color: rgb(228, 0, 0);
 }
 
@@ -170,7 +177,7 @@ main {
     width: 100%;
 }
 
-.row--minipod{
+.row--minipod {
     padding-top: 0;
 }
 
@@ -192,7 +199,6 @@ main {
     display: none;
 }
 
-
 .row-top--blue {
     background-color: rgb(232, 249, 251);
 }
@@ -208,9 +214,19 @@ main {
     height: 100%;
 }
 
+.reference {
+    background-color: #e8f9fb;
+    margin: 10px 25%;
+    padding: 10px;
+}
+
+.reference__header {
+    margin: 10px 25%;
+}
+
 .number-blob {
     float: left;
-    font-family: scriptorama-markdown-jf, Arial, Helvetica, sans-serif;
+    font-family: proxima-nova-condensed, Arial, Helvetica, sans-serif;
     font-size: 21px;
     border-radius: 30px;
     text-align: center;
@@ -232,6 +248,7 @@ main {
     margin: 0 auto;
     text-align: center;
     float: none;
+    padding: 0;
 }
 
 .text-container--left {
@@ -241,7 +258,7 @@ main {
 
 .text-container--top {
     float: left;
-    padding: 50px 50px 0px 0px;
+    padding: 45px 50px 0px 0px;
 }
 
 .text-container--with-blob {
@@ -249,8 +266,8 @@ main {
 }
 
 .text-container__header {
-    font-family: scriptorama-markdown-jf, Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-family: proxima-nova-condensed, Arial, Helvetica, sans-serif;
+    font-weight: 800;
     font-style: normal;
 }
 
@@ -267,7 +284,7 @@ main {
     margin: 0 auto;
 }
 
-.text-container__paragraph__signature{
+.text-container__paragraph__signature {
     text-align: right;
     margin-top: -10px;
 }
@@ -286,10 +303,6 @@ main {
     display: block;
     white-space: nowrap;
     text-decoration: none;
-}
-
-.text-container__button--center {
-    margin: auto;
 }
 
 .text-container__button:link {
@@ -311,6 +324,34 @@ main {
     background: rgb(153, 0, 0);
 }
 
+.text-container__button--center {
+    margin: auto;
+}
+
+.text-container__button--footer {
+    background: #eeeeee;
+    box-shadow: 3px 3px 6px 0px rgb(153, 0, 0);
+}
+
+.text-container__button--footer:link {
+    color: #cc0000;
+}
+
+.text-container__button--footer:visited {
+    color: #cc0000;
+}
+
+.text-container__button--footer:hover {
+    box-shadow: 4px 4px 7px 0px rgb(153, 0, 0);
+    color: #cc0000;
+    background: #ffffff;
+    padding: 20px 20px 21px 21px;
+}
+
+.text-container__button--footer:active {
+    background: #eeeeee;
+}
+
 .image-container {
     width: 50%;
     float: left;
@@ -320,17 +361,24 @@ main {
 .image-container--right {
     float: right;
     padding: 0px 0px 0px 50px;
+    padding: 12.5%;
 }
-.image-container--power{
-margin-top: -30px;
+
+.image-container--power {
+    margin-top: -30px;
 }
+
 .image-container__image {
     border: 1px solid rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px #bbbbbb;
 }
+
+/*
 .image-container__red-circle {
     width: 50%;
 }
+*/
+
 .image-container__text {
     font-family: Lato-Bold, sans-serif;
     margin-left: 15px;
@@ -383,51 +431,39 @@ margin-top: -30px;
 .footer {
     bottom: 0;
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 40px;
     background-color: rgb(228, 0, 0);
     color: white;
 }
 
-.footer-left-text {
-    width: 20%;
-    display: inline-block;
-    margin-left: 5%;
-    vertical-align: top;
-    margin-right: 50%;
-}
-
-.footer-right-text {
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.footer-text-button {
-    border-radius: 30px;
-    text-align: center;
-    background: rgb(255, 255, 255);
-    padding: 20px;
-    width: 250px;
-    /* For nettlesere uten fit-content (eks ie11) */
-    width: fit-content;
-    height: 60px;
-    font-family: lato-bold, Arial, Helvetica, sans-serif;
-    display: block;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
-.footer-text-button a {
-    color: rgb(228, 0, 0);
-    text-decoration: none;
-}
-
 .footer__text {
-    overflow: auto;
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    /* overflow: auto; */
 }
 
-@media only screen and (max-width: 900px) {
+.footer__text--right {
+    text-align: right;
+}
+
+.footer__text--center {
+    text-align: center;
+}
+
+.footer__text__header {
+    font-family: proxima-nova-condensed, Arial, Helvetica, sans-serif;
+}
+
+.footer__text__paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 950px) {
+    h1 {
+        font-size: 45px;
+    }
     .row-top__content {
         background-image: none;
         display: flex;
@@ -456,7 +492,6 @@ margin-top: -30px;
         width: 100%;
         padding: 0;
     }
-
     .text-container {
         width: 100%;
         padding: 0;
@@ -466,7 +501,10 @@ margin-top: -30px;
         width: calc(100% - 45px);
     }
     .text-container__button {
-        float:left;
+        float: left;
+    }
+    .text-container__button--footer {
+        float: none;
     }
     .image-container {
         width: 100%;
@@ -479,25 +517,39 @@ margin-top: -30px;
         text-align: center;
         margin-left: 0px;
     }
-    @media only screen and (max-width: 450px) {
-        .row {
-            padding: 25px 50px;
-        }
-        .row-top__content {
-            padding: 0 50px;
-        }
-        .number-blob {
-            display: none;
-        }
-        .text-container--with-blob {
+    @media only screen and (max-width: 700px) {
+        .footer__text {
             width: 100%;
+            text-align: left;
         }
-        @media only screen and (max-width: 350px) {
+        .text-container__button--footer {
+            margin: 0;
+        }
+        @media only screen and (max-width: 450px) {
             .row {
-                padding: 25px 25px;
+                padding: 25px 50px;
             }
             .row-top__content {
-                padding: 0 25px;
+                padding: 0 50px;
+            }
+            .number-blob {
+                display: none;
+            }
+            .text-container--with-blob {
+                width: 100%;
+            }
+            @media only screen and (max-height: 800px) {
+                .row-top__phone-image {
+                    display: none;
+                }
+            }
+            @media only screen and (max-width: 350px) {
+                .row {
+                    padding: 25px 25px;
+                }
+                .row-top__content {
+                    padding: 0 25px;
+                }
             }
         }
     }
