@@ -91,7 +91,6 @@ main {
 }
 
 .header__sdg-button:hover {
-    box-shadow: 4px 4px 7px 0px #bbbbbb;
     color: white;
     background: rgb(238, 0, 0);
 }
