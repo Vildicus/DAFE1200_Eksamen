@@ -361,7 +361,7 @@ main {
 .image-container--right {
     float: right;
     padding: 0px 0px 0px 50px;
-    padding: 12.5%;
+    padding: 10%;
 }
 
 .image-container--power {
