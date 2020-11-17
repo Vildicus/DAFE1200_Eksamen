@@ -25,9 +25,10 @@ body {
 }
 
 h1 {
-    /* backup */
+    /* backup 60px */
     font-size: 60px;
-    font-size: 9vh;
+    /* Den minste verdien av disse for å støtte både høye og brede skjermer */
+    font-size: min(8.7vh, 8.7vw);
     font-weight: 800;
     line-height: 1.1;
 }
@@ -48,8 +49,10 @@ main {
 }
 
 .top_p {
+    /* backup 20px */
     font-size: 20px;
-    font-size: 3vh;
+    /* Den minste verdien av disse for å støtte både høye og brede skjermer */
+    font-size: min(2.9vh, 2.9vw);
 }
 
 .top_p--white-background {
@@ -72,7 +75,7 @@ a.ref_links:target {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
 .header--blue {
@@ -267,6 +270,7 @@ a.ref_links:target {
 .text-container--top {
     float: left;
     padding: 45px 50px 0px 0px;
+    z-index: 1;
 }
 
 .text-container--with-blob {
@@ -472,6 +476,9 @@ a.ref_links:target {
     h1 {
         font-size: 45px;
     }
+    .top_p {
+        font-size: 20px;
+    }
 
     .row-top__content {
         background-image: none;
@@ -580,7 +587,7 @@ a.ref_links:target {
             font-size: 13px;
         }
 
-        @media only screen and (max-height: 800px) {
+        @media only screen and (max-height: 700px) {
             .row-top__phone-image {
                 display: none;
             }
