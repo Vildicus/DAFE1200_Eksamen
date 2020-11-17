@@ -80,7 +80,7 @@ a.ref_links:target {
 }
 
 .header__logo {
-    width: 15%;
+    width: 10%;
     float: left;
     margin-top: 1%;
     margin-left: 8%;
@@ -539,21 +539,21 @@ a.ref_links:target {
         margin-left: 0px;
     }
 
+    .header__logo {
+        width: 10%;
+    }
+
     @media only screen and (max-width: 700px) {
         .footer__text {
             width: 100%;
             text-align: left;
         }
 
-        .header__logo {
-            width: 20%;
-        }
-
         .text-container__button--footer {
             margin: 0;
         }
 
-        a.header__link{
+        a.header__link {
             font-size: 17px;
         }
 
@@ -574,36 +574,35 @@ a.ref_links:target {
                 width: 100%;
             }
 
-            .header__logo {
-                width: 20%;
+        }
+        a.header__link {
+            padding: 10px 10px;
+            font-size: 13px;
+        }
+
+        @media only screen and (max-height: 800px) {
+            .row-top__phone-image {
+                display: none;
             }
-            a.header__link{
-                padding: 10px 10px;
-                font-size: 13px;
+        }
+        @media only screen and (max-width: 350px) {
+            .row {
+                padding: 25px 25px;
             }
 
-            @media only screen and (max-height: 800px) {
-                .row-top__phone-image {
-                    display: none;
-                }
+            .row-top__content {
+                padding: 0 25px;
             }
-            @media only screen and (max-width: 350px) {
-                .row {
-                    padding: 25px 25px;
-                }
 
-                .row-top__content {
-                    padding: 0 25px;
-                }
+        }
+        a.header__link {
+            padding: 3px 3px;
+            font-size: 12px;
+        }
 
-                .header__logo {
-                    width: 20%;
-                }
-                a.header__link{
-                    padding: 8px 8px;
-                    font-size: 8px;
-                }
-            }
+        .header__logo {
+            width: 15%;
         }
     }
 }
+

@@ -16,7 +16,7 @@
     margin-top: 6%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .image-container-container-minipods{
         display: inline-block;
         width: 40%;
