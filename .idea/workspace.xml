@@ -36,7 +36,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605089342060</updated>
       <workItem from="1605089344014" duration="1374000" />
-      <workItem from="1605168917624" duration="4216000" />
+      <workItem from="1605168917624" duration="5152000" />
+      <workItem from="1605255987180" duration="142000" />
+      <workItem from="1605525217885" duration="693000" />
+      <workItem from="1605608411136" duration="7373000" />
     </task>
     <servers />
   </component>
@@ -52,5 +55,9 @@
       <screen x="-1920" y="0" width="1280" height="720" />
     </state>
     <state x="-1942" y="49" width="1294" height="806" maximized="true" key="dock-window-2/0.0.1707.920/2560.0.1280.720/-1920.0.1280.720@0.0.1707.920" timestamp="1605171509782" />
+    <state x="304" y="81" key="new project wizard" timestamp="1605256060919">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="304" y="81" key="new project wizard/0.0.1707.920/2560.0.1280.720/-1920.0.1280.720@0.0.1707.920" timestamp="1605256060919" />
   </component>
 </project>

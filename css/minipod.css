@@ -1,8 +1,31 @@
 .image-container-minipods{
     display: inline-block;
-    vertical-align: center;
-    width: 20%;
+    vertical-align: top;
     margin-right: 2%;
     margin-left: 2%;
+    margin-top: 2%;
     text-align: center;
+    background-color: #e8f9fb;
+    width: 160px;
+    height: 150px;
+    box-shadow: #e8f9fb;
+}
+
+.image-container-container-minipods{
+    display: inline-block;
+    margin-top: 6%;
+}
+
+@media only screen and (max-width: 900px) {
+    .image-container-container-minipods{
+        display: inline-block;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .image-container-container-minipods{
+        display: inline-block;
+        width: 50%;
+    }
 }
