@@ -83,7 +83,7 @@ a.ref_links:target {
 }
 
 .header__logo {
-    width: 10%;
+    width: 100px;
     float: left;
     margin-top: 1%;
     margin-left: 8%;
@@ -190,6 +190,7 @@ a.ref_links:target {
 
 .row--minipod {
     padding-top: 0;
+    horiz-align: center;
 }
 
 .row-top__content {
@@ -480,6 +481,10 @@ a.ref_links:target {
         font-size: 20px;
     }
 
+    .header{
+        height: 40px;
+    }
+
     .row-top__content {
         background-image: none;
         display: flex;
@@ -547,7 +552,7 @@ a.ref_links:target {
     }
 
     .header__logo {
-        width: 10%;
+        width: 80px;
     }
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
@@ -574,6 +579,12 @@ a.ref_links:target {
         a.header__link {
             font-size: 17px;
         }
+        .header__logo {
+            width: 70px;
+        }
+        .header{
+            height: 30px;
+        }
 
         @media only screen and (max-width: 450px) {
             .row {
@@ -590,6 +601,9 @@ a.ref_links:target {
 
             .text-container--with-blob {
                 width: 100%;
+            }
+            .header__logo {
+                width: 60px;
             }
 
         }
@@ -619,8 +633,26 @@ a.ref_links:target {
         }
 
         .header__logo {
-            width: 15%;
+            width:50px;
         }
+    }
+}
+@media only screen and (max-width: 320px) {
+    a.header__link {
+        padding: 0px 4px;
+        font-size: 12px;
+    }
+
+    .header__logo {
+        width:40px;
+    }
+
+    .header__link-container {
+        text-align: center;
+        margin-right: 30px;
+    }
+    .header{
+        height: 25px;
     }
 }
 

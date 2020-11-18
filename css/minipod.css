@@ -14,12 +14,15 @@
 .image-container-container-minipods{
     display: inline-block;
     margin-top: 6%;
+    margin-left: 4%;
 }
-
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 990px) {
     .image-container-container-minipods{
         display: inline-block;
         width: 40%;
+    }
+    .image-container-minipods{
+        margin-left: 25%;
     }
 }
 
@@ -27,5 +30,17 @@
     .image-container-container-minipods{
         display: inline-block;
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .image-container-container-minipods{
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .image-container-container-minipods{
+        margin-top: 15%;
     }
 }
