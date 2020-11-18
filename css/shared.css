@@ -59,11 +59,6 @@ main {
     background: white;
 }
 
-a.ref_links:target {
-    height: 120px;
-    margin-top: -120px;
-}
-
 .sup {
     vertical-align: super;
     font-size: smaller;
@@ -655,4 +650,3 @@ a.ref_links:target {
         height: 25px;
     }
 }
-
