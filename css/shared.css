@@ -547,6 +547,9 @@ SDG button som er midletidig fjernet
         text-align: center;
         margin-left: 0px;
     }
+    .header__link-container{
+        margin-right: 0;
+    }
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
             display: none;
@@ -608,6 +611,9 @@ SDG button som er midletidig fjernet
             }
             .text-container--with-blob {
                 width: 100%;
+            }
+            .header__link-container{
+                margin-right: 0;
             }
             @media only screen and (max-width: 350px) {
                 .row {
