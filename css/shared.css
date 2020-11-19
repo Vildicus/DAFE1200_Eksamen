@@ -75,7 +75,6 @@ main {
     /* midtstill fixed position fra: https://stackoverflow.com/a/32694476*/
     left: 50%;
     transform: translateX(-50%);
-    margin: auto;
     top: 0;
     z-index: 10;
 }
@@ -86,61 +85,13 @@ main {
 
 .header__logo {
     width: 100px;
-    float: left;
-    margin-top: 1%;
-    margin-left: 8%;
+    float: left; 
+    margin: 4px 0 0px 100px;
 }
 
-/*
-SDG button som er midletidig fjernet
-
-.header__sdg-button {
-    float: right;
-    margin: 14px 16px;
-    border-radius: 30px;
-    text-align: center;
-    background: rgb(230, 0, 0);
-    box-shadow: 3px 3px 6px 0px #bbbbbb;
-    padding: 2px;
-    width: 75px;
-    font-size: 14px;
-    height: 21px;
-    font-family: lato-regular, Arial, Helvetica, sans-serif;
-    display: block;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
-.header__sdg-button:link {
-    color: white;
-}
-
-.header__sdg-button:visited {
-    color: white;
-}
-
-.header__sdg-button:hover {
-    box-shadow: 4px 4px 7px 0px #bbbbbb;
-    color: white;
-    background: rgb(238, 0, 0);
-}
-
-.header__sdg-button:active {
-    color: hotpink;
-}
-
-.header__sdg-button__text {
-    vertical-align: 3px;
-}
-
-.header__sdg-button__image {
-    height: 16px;
-    width: 16px;
-}
-*/
 .header__link-container {
     text-align: center;
-    margin-right: 75px;
+    margin-right: 200px;
 }
 
 .header__link {
@@ -487,11 +438,14 @@ SDG button som er midletidig fjernet
     .header {
         height: 40px;
     }
-    .header__link {
-        padding: 9px 16px;
-    }
     .header__logo {
         width: 80px;
+    }
+    .header__link-container{
+        margin-right: 180px;
+    }
+    .header__link {
+        padding: 9px 16px;
     }
     .row-top__content {
         background-image: none;
@@ -547,9 +501,7 @@ SDG button som er midletidig fjernet
         text-align: center;
         margin-left: 0px;
     }
-    .header__link-container{
-        margin-right: 0;
-    }
+    
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
             display: none;
@@ -568,12 +520,17 @@ SDG button som er midletidig fjernet
         .header {
             height: 30px;
         }
-        .header__link {
-            padding: 3px 3px;
-            font-size: 12px;
-        }
         .header__logo {
             width: 50px;
+        }
+        .header__link-container{
+            margin-right: 0;
+            text-align: left;
+            margin-left: 160px;
+        }
+        .header__link {
+            padding: 5px 10px;
+            font-size: 14px;
         }
         .row-top__content {
             height: calc(100vh - 80px);
@@ -597,8 +554,16 @@ SDG button som er midletidig fjernet
             }
         }
         @media only screen and (max-width: 450px) {
-            .header__logo {
-                width: 60px;
+            
+            .header__logo{                
+                margin: 4px 0 0px 50px;
+            }
+            .header__link-container{
+                margin-left: 115px;
+            }
+            .header__link {
+                padding: 5px 5px;
+                font-size: 14px;
             }
             .row {
                 padding: 25px 50px;
@@ -612,10 +577,17 @@ SDG button som er midletidig fjernet
             .text-container--with-blob {
                 width: 100%;
             }
-            .header__link-container{
-                margin-right: 0;
-            }
             @media only screen and (max-width: 350px) {
+                .header__logo{                
+                    margin: 4px 0 0px 25px;
+                }
+                .header__link-container{
+                    margin-left: 90px;
+                }
+                .header__link {
+                    padding: 5px 5px;
+                    font-size: 14px;
+                }
                 .row {
                     padding: 25px 25px;
                 }
@@ -627,34 +599,6 @@ SDG button som er midletidig fjernet
                 }
                 .row-top__content {
                     height: calc(100vh - 80px);
-                }
-                @media only screen and (max-width: 320px) {
-                    main {
-                        margin-top: 25px;
-                    }
-                    .header {
-                        height: 25px;
-                    }
-                    .header__link-container {
-                        text-align: center;
-                        margin-right: 30px;
-                    }
-                    .header__link {
-                        padding: 0px 4px;
-                        font-size: 12px;
-                    }
-                    .header__logo {
-                        width: 40px;
-                    }
-                    .row-top__content {
-                        height: calc(100vh - 75px);
-                    }
-                    @media only screen and (min-height: 400px) {
-                        /* bare hvis over 400 høy */
-                        .row-top__content--home {
-                            height: calc(100vh - 155px);
-                        }
-                    }
                 }
             }
         }
