@@ -84,8 +84,8 @@ main {
 }
 
 .header__logo {
-    width: 100px;
-    float: left; 
+    width: 130px;
+    float: left;
     margin: 4px 0 0px 100px;
 }
 
@@ -98,7 +98,7 @@ main {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: 25px;
     color: black;
     text-decoration: none;
 }
@@ -427,40 +427,49 @@ main {
 }
 
 @media only screen and (max-width: 950px) {
-    
+
     main {
         margin-top: 40px;
     }
-   
+
     .header {
         height: 40px;
     }
+
     .header__logo {
         width: 80px;
     }
-    .header__link-container{
+
+    .header__link-container {
         margin-right: 180px;
     }
+
     .header__link {
         padding: 9px 16px;
+        font-size: 16px;
     }
+
     .row-top__content {
         background-image: none;
         display: flex;
         flex-direction: column;
         height: calc(100vh - 90px);
     }
+
     .row-top__content--home {
         background-image: none;
         height: calc(100vh - 175px);
     }
+
     .row-top__car-train-image-container {
         display: block;
     }
+
     .row-top__car-train-image {
         height: 80px;
         object-fit: cover;
     }
+
     .row-top__phone-image {
         background-image: url(../img/App_homepage_mockup.png);
         flex: 1;
@@ -468,41 +477,50 @@ main {
         background-size: auto 100%;
         background-position: center;
     }
+
     .row-top__right-image-container {
         overflow: hidden;
         width: 100%;
         padding: 0;
     }
+
     .text-container {
         width: 100%;
         padding: 0;
         text-align: left;
     }
+
     .text-container--with-blob {
         width: calc(100% - 45px);
     }
+
     .text-container__button {
         float: left;
     }
+
     .text-container__button--footer {
         float: none;
     }
+
     .image-container {
         width: 100%;
         padding: 0;
     }
+
     .image-container__red-circle {
         margin: auto;
     }
-    
-    
+
+
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
             display: none;
         }
+
         .row-top__content--home {
             height: calc(100vh - 90px);
         }
+
         .row-top__phone-image {
             display: none;
         }
@@ -511,24 +529,30 @@ main {
         main {
             margin-top: 30px;
         }
+
         .header {
             height: 30px;
         }
+
         .header__logo {
             width: 50px;
         }
-        .header__link-container{
+
+        .header__link-container {
             margin-right: 0;
             text-align: left;
             margin-left: 160px;
         }
+
         .header__link {
             padding: 5px 10px;
-            font-size: 14px;
+            font-size: 12px;
         }
+
         .row-top__content {
             height: calc(100vh - 80px);
         }
+
         @media only screen and (min-height: 400px) {
             /* bare hvis over 400 høy */
             .row-top__content--home {
@@ -538,59 +562,74 @@ main {
         .text-container__button--footer {
             margin: 0;
         }
+
         .footer__text {
             width: 100%;
             text-align: left;
         }
+
         @media only screen and (max-height: 700px) {
             .row-top__phone-image {
                 display: none;
             }
         }
         @media only screen and (max-width: 450px) {
-            
-            .header__logo{                
+
+            .header__logo {
                 margin: 4px 0 0px 50px;
             }
-            .header__link-container{
+
+            .header__link-container {
                 margin-left: 115px;
             }
+
             .header__link {
                 padding: 5px 5px;
-                font-size: 14px;
+                font-size: 13px;
             }
+
             .row {
                 padding: 25px 50px;
             }
+
             .row-top__content {
                 padding: 0 50px;
             }
+
             .number-blob {
                 display: none;
             }
+
             .text-container--with-blob {
                 width: 100%;
             }
+
             @media only screen and (max-width: 350px) {
-                .header__logo{                
+                .header__logo {
                     margin: 4px 0 0px 25px;
                 }
-                .header__link-container{
+
+                .header__link-container {
                     margin-left: 90px;
                 }
+
                 .header__link {
                     padding: 5px 5px;
                     font-size: 14px;
                 }
+
                 .row {
                     padding: 25px 25px;
                 }
+
                 .row-top__content {
                     padding: 0 25px;
                 }
+
                 .row-top__phone-image {
                     display: none;
                 }
+
                 .row-top__content {
                     height: calc(100vh - 80px);
                 }
