@@ -445,13 +445,14 @@ main {
     padding: 40px 40px;
     background-color: rgb(228, 0, 0);
     color: white;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .footer__text {
     width: 33%;
     display: inline-block;
     vertical-align: top;
-    /* overflow: auto; */
 }
 
 .footer__text--right {
