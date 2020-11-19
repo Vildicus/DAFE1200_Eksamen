@@ -637,3 +637,7 @@ main {
         }
     }
 }
+
+html{
+    scroll-behavior: smooth;
+}
