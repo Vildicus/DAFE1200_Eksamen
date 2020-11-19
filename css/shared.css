@@ -91,6 +91,9 @@ main {
     margin-left: 8%;
 }
 
+/*
+SDG button som er midletidig fjernet
+
 .header__sdg-button {
     float: right;
     margin: 14px 16px;
@@ -134,7 +137,7 @@ main {
     height: 16px;
     width: 16px;
 }
-
+*/
 .header__link-container {
     text-align: center;
     margin-right: 75px;
@@ -188,7 +191,6 @@ main {
 
 .row--minipod {
     padding-top: 0;
-    horiz-align: center;
 }
 
 .row-top {
