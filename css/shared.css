@@ -184,8 +184,9 @@ main {
 
 .reference {
     background-color: #e8f9fb;
-    margin: 10px 25%;
+    margin: 10px auto;
     padding: 10px;
+    max-width: 700px;
 }
 
 .reference__header {
@@ -430,9 +431,7 @@ main {
     main {
         margin-top: 40px;
     }
-    .top_p {
-        font-size: 20px;
-    }
+   
     .header {
         height: 40px;
     }
