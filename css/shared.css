@@ -29,7 +29,7 @@ h1 {
     /* backup 60px */
     font-size: 60px;
     /* Den minste verdien av disse for å støtte både høye og brede skjermer */
-    font-size: min(8.7vh, 8.7vw);
+    font-size: max(min(8.7vh, 8.7vw, 70px), 42px);
     font-weight: 800;
     line-height: 1.1;
 }
@@ -54,7 +54,7 @@ main {
     /* backup 20px */
     font-size: 20px;
     /* Den minste verdien av disse for å støtte både høye og brede skjermer */
-    font-size: min(2.9vh, 2.9vw);
+    font-size: max(min(2.9vh, 2.9vw, 25px), 14px);
 }
 
 .top_p--white-background {
@@ -345,7 +345,7 @@ main {
 
 .image-container__text {
     font-family: Lato-Bold, sans-serif;
-    margin-left: 15px;
+    text-align: center;
 }
 
 .background-image-container {
@@ -426,9 +426,7 @@ main {
 }
 
 @media only screen and (max-width: 950px) {
-    h1 {
-        font-size: 45px;
-    }
+    
     main {
         margin-top: 40px;
     }
@@ -497,10 +495,7 @@ main {
     .image-container__red-circle {
         margin: auto;
     }
-    .image-container__text {
-        text-align: center;
-        margin-left: 0px;
-    }
+    
     
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
