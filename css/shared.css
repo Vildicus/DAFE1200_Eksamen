@@ -380,7 +380,7 @@ SDG button som er midletidig fjernet
 .image-container--right {
     float: right;
     padding: 0px 0px 0px 50px;
-    padding: 10%;
+    padding: 0 10%;
 }
 
 .image-container--power {
