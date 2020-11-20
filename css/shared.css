@@ -86,9 +86,10 @@ main {
 }
 
 .header__logo {
-    width: 130px;
+    width: 100px;
     float: left;
-    margin: 4px 0 0px 100px;
+    margin-left: 100px;
+    padding-top: 8px;
 }
 
 .header__link-container {
@@ -100,10 +101,11 @@ main {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
-    font-size: 21px;
+    font-size: 17px;
     color: black;
     text-decoration: none;
 }
+
 
 .header__link:link {
     color: black;
@@ -188,6 +190,7 @@ main {
 .row-top__right-image-container__image {
     object-fit: contain;
     height: 100%;
+    padding: 0 8.5%;
 }
 
 .reference {
@@ -352,6 +355,11 @@ main {
     box-shadow: 3px 3px 6px 0px #bbbbbb;
 }
 
+.image-container__red-circle {
+    margin: auto;
+    width: 75%;
+}
+
 .image-container__text {
     font-family: Lato-Bold, sans-serif;
     text-align: center;
@@ -443,6 +451,20 @@ main {
     font-size: 14px;
     line-height: 1.5;
 }
+@media only screen and (min-width: 1300px) {
+    .header {
+        height: 60px;
+    }
+
+    .header__logo {
+        width: 130px;
+    }
+
+    .header__link{
+        font-size: 20px;
+    }
+
+}
 
 @media only screen and (max-width: 950px) {
     main {
@@ -455,12 +477,14 @@ main {
         width: 80px;
     }
     .header__link-container {
-        margin-right: 180px;
+        margin-right: 110px;
     }
     .header__link {
         padding: 9px 16px;
         font-size: 16px;
     }
+
+   
     .row-top__content {
         background-image: none;
         display: flex;
@@ -508,9 +532,11 @@ main {
         width: 100%;
         padding: 0;
     }
+
     .image-container__red-circle {
-        margin: auto;
-    }
+        width: 50%;
+}
+    
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
             display: none;
@@ -531,7 +557,9 @@ main {
         }
         .header__logo {
             width: 50px;
+            padding-top: 4px;
         }
+        
         .header__link-container {
             margin-right: 0;
             text-align: left;
@@ -541,9 +569,16 @@ main {
             padding: 5px 10px;
             font-size: 12px;
         }
+        .header__link--home{
+            display: none;
+            }
         .row-top__content {
             height: calc(100vh - 80px);
         }
+        
+    .image-container__red-circle {
+        width: 70%;
+}
         @media only screen and (min-height: 400px) {
             /* bare hvis over 400 høy */
             .row-top__content--home {
@@ -564,7 +599,7 @@ main {
         }
         @media only screen and (max-width: 450px) {
             .header__logo {
-                margin: 4px 0 0px 50px;
+                margin: 0px 0 0px 50px;
             }
             .header__link-container {
                 margin-left: 115px;
@@ -587,7 +622,7 @@ main {
             }
             @media only screen and (max-width: 350px) {
                 .header__logo {
-                    margin: 4px 0 0px 25px;
+                    margin: 0px 0 0px 25px;
                 }
                 .header__link-container {
                     margin-left: 90px;
