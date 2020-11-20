@@ -29,13 +29,15 @@ h1 {
     /* backup 60px */
     font-size: 60px;
     /* Den minste verdien av disse for å støtte både høye og brede skjermer */
-    font-size: max(min(8.7vh, 8.7vw, 70px), 42px);
+    font-size: max(min(8.7vh, 8.7vw, 70px), 45px);
     font-weight: 800;
     line-height: 1.1;
+    margin-bottom: 0px;
 }
 
 h2 {
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 42px;
     font-weight: 800;
     line-height: 1.1;
@@ -127,6 +129,7 @@ main {
 
 .header__link--current:link {
     text-decoration: underline;
+    
 }
 
 .row {
@@ -383,9 +386,9 @@ main {
 
 .scroll-down-container__arrow {
     border: solid rgb(230, 0, 0);
-    border-width: 0 5px 5px 0;
+    border-width: 0 6px 6px 0;
     display: inline-block;
-    padding: 10px;
+    padding: 13px;
     transform: rotate(45deg);
     box-shadow: 2px 2px 2px 0px #bbbbbb;
     animation-name: bounce;
