@@ -100,7 +100,7 @@ main {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
-    font-size: 25px;
+    font-size: 21px;
     color: black;
     text-decoration: none;
 }
@@ -125,11 +125,6 @@ main {
 .header__link:active {
     color: rgb(153, 0, 0);
     background-color: transparent;
-}
-
-.header__link--current:link {
-    text-decoration: underline;
-    
 }
 
 .row {
@@ -230,7 +225,7 @@ main {
 
 .text-container--top {
     float: left;
-    padding: 45px 50px 0px 0px;
+    padding: 120px 50px 0px 60px;
     z-index: 1;
 }
 
@@ -258,7 +253,7 @@ main {
 }
 
 .text-container__paragraph__signature {
-    text-align: right;
+    text-align: left;
     margin-top: -10px;
     font-size: max(min(2vh, 2vw), 13px);
 }
@@ -430,10 +425,12 @@ main {
 
 .footer__text__header {
     font-family: proxima-nova-condensed, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .footer__text__paragraph {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -518,7 +515,7 @@ main {
         padding: 0;
     }
 
-    .image-container__red-circle {
+    .image-container__red-circle{
         margin: auto;
     }
 

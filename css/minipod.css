@@ -13,16 +13,21 @@
 .minipod-container__text {
     display: block;
     width: 100%;
-    
+
     float: left;
     text-align: center;
     background-color: #e8f9fb;
     box-shadow: 3px 3px 6px 0px #bbbbbb;
     padding: 8px 0 8px 0;
-    
 }
+
 .minipod-container__text--cover{
     margin-top: -21px;
+    font-weight: 900;
+}
+
+.mockup {
+  width: 140%;
 }
 
 .minipod-container__img {
@@ -33,7 +38,6 @@
 .minipod-container__how-image{
     display: block;
 }
-
 
 @media only screen and (max-width: 990px) {
     .minipod-container__wrapper {
