@@ -356,8 +356,8 @@ main {
     height: 450px;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .background-image-container--bilko {
@@ -366,6 +366,14 @@ main {
 
 .background-image-container-city {
     background-image: url(../img/Bybilde.png);
+}
+
+.background-image-container--minipods {
+    background-image: url(../img/Vei_illustrasjon.png);
+}
+
+.background-image-container--busstop{
+    background-image: url(../img/Busstopp_foto.png);
 }
 
 .scroll-down-container {
