@@ -549,8 +549,8 @@ main {
         .row-top__car-train-image {
             display: none;
         }
-        .row-top__content--home {
-            height: calc(100vh - 90px);
+       /* .row-top__content--home {
+            height: calc(100vh - 90px);*/
         }
         .row-top__phone-image {
             display: none;
@@ -583,15 +583,20 @@ main {
         .row-top__content {
             height: calc(100vh - 80px);
         }
+        .row-top__content--home {
+            background-image: none;
+            height: calc(100vh - 275px);
+        }
+        
 
     .image-container__red-circle {
         width: 70%;
 }
         @media only screen and (min-height: 400px) {
             /* bare hvis over 400 høy */
-            .row-top__content--home {
+            /*.row-top__content--home {
                 height: calc(100vh - 155px);
-            }
+            }*/
         }
 
         .text-container__button--footer {
