@@ -472,7 +472,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 97px) {
+@media only screen and (max-width: 973px) {
     main {
         margin-top: 40px;
     }
