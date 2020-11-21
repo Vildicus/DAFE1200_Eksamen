@@ -222,7 +222,7 @@ main {
 .text-container {
     width: 50%;
     float: right;
-    padding: 0px 0px 0px 50px;
+    padding-left: 50px;
 }
 
 .text-container--center {
@@ -472,7 +472,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 973px) {
+@media only screen and (max-width: 97px) {
     main {
         margin-top: 40px;
     }
@@ -525,6 +525,7 @@ main {
     .text-container {
         width: 100%;
         text-align: left;
+        padding: 0;
     }
     .text-container--top {
         padding: 60px 0 0 0;
