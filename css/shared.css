@@ -512,8 +512,8 @@ main {
         object-fit: cover;
     }
     .row-top__phone-image {
-        background-image: url(../img/App_homepage_mockup.png);
-        flex: 1;
+      /*  background-image: url(../img/App_homepage_mockup.png);*/
+       /* flex: 1;*/
         background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: center;
