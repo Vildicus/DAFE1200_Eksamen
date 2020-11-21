@@ -237,8 +237,10 @@ main {
 }
 
 .text-container--top {
+    flex: auto;
+    align-items: center;
     float: left;
-    padding: 120px 50px 0px 60px;
+    padding: 120px 0px 0px 60px;
     z-index: 1;
 }
 
@@ -490,7 +492,7 @@ main {
         font-size: 16px;
     }
 
-   
+
     .row-top__content {
         background-image: none;
         display: flex;
@@ -542,7 +544,7 @@ main {
     .image-container__red-circle {
         width: 50%;
 }
-    
+
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
             display: none;
@@ -565,7 +567,7 @@ main {
             width: 50px;
             padding-top: 4px;
         }
-        
+
         .header__link-container {
             margin-right: 0;
             text-align: left;
@@ -581,7 +583,7 @@ main {
         .row-top__content {
             height: calc(100vh - 80px);
         }
-        
+
     .image-container__red-circle {
         width: 70%;
 }
@@ -591,6 +593,7 @@ main {
                 height: calc(100vh - 155px);
             }
         }
+
         .text-container__button--footer {
             margin: 0;
         }
