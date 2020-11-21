@@ -238,9 +238,7 @@ main {
 }
 
 .text-container--top {
-    flex: auto;
-    align-items: center;
-    float: left;
+        float: left;
     padding: 80px 0px 0px 60px;
     z-index: 1;
 }
