@@ -366,12 +366,11 @@ main {
 }
 
 .background-image-container {
-    background: white;
-    height: min(40vw, 450px);
+    height: 450px;
     background-attachment: fixed;
     background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .background-image-container--bilko {
@@ -383,12 +382,17 @@ main {
 }
 
 .background-image-container--minipods {
+    background-color:white;
     background-image: url(../img/Vei_illustrasjon.png);
-    background-image: url(../img/Vei_illustrasjon2.png);
+    height: min(40vw, 450px);
+    background-size: contain;
 }
 
 .background-image-container--busstop {
+    background-color:white;
     background-image: url(../img/Busstopp_foto.png);
+    height: min(40vw, 450px);
+    background-size: contain;
 }
 
 .scroll-down-container {
