@@ -29,16 +29,16 @@ h1 {
     /* backup 60px */
     font-size: 60px;
     /* Den minste verdien av disse for å støtte både høye og brede skjermer */
-    font-size: max(min(8.7vh, 8.7vw, 70px), 45px);
+    font-size: max(min(8.7vh, 8.7vw, 70px), 44px);
     font-weight: 800;
     line-height: 1.1;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 h2 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 42px;
+    font-size: 41px;
     font-weight: 800;
     line-height: 1.1;
 }
@@ -489,21 +489,25 @@ main {
         padding: 9px 16px;
         font-size: 16px;
     }
+    .row{
+        padding: 0px 80px;
+    }
     .row-top__content {
         background-image: none;
         display: flex;
         flex-direction: column;
         height: calc(100vh - 90px);
+        padding: 0px 80px;
     }
     .row-top__content--home {
         background-image: none;
-        height: calc(100vh - 260px);
+        height: calc(80vh - 100px);
     }
     .row-top__car-train-image-container {
         display: block;
     }
     .row-top__car-train-image {
-        height: 160px;
+        height: 20vh;
         object-fit: cover;
     }
     .row-top__phone-image {
@@ -522,6 +526,10 @@ main {
         width: 100%;
         text-align: left;
     }
+    .text-container--top{
+        padding: 60px 0 0 0;
+    }
+    
     .text-container--with-blob {
         width: calc(100% - 45px);
     }
@@ -544,9 +552,6 @@ main {
         }
         .row-top__content--home {
             height: calc(100vh - 90px);
-        }
-        .row-top__phone-image {
-            display: none;
         }
     }
     @media only screen and (max-width: 700px) {
@@ -572,20 +577,18 @@ main {
         .header__link--home {
             display: none;
         }
+       
         .row-top__content {
             height: calc(100vh - 80px);
         }
         .row-top__content--home {
-            height: calc(100vh - 240px);
+            height: calc(80vh - 80px);
         }
         .image-container__red-circle {
             width: 70%;
         }
-        @media only screen and (min-height: 400px) {
-            /* bare hvis over 400 høy */
-            /*.row-top__content--home {
-                height: calc(100vh - 155px);
-            }*/
+        .text-container--top{
+            padding: 50px 0 0 0;
         }
         .text-container__button--footer {
             margin: 0;
@@ -593,6 +596,12 @@ main {
         .footer__text {
             width: 100%;
             text-align: left;
+        }
+        @media only screen and (max-height: 400px) {
+            /* bare hvis over 400 høy */
+            .row-top__content--home {
+                height: calc(100vh - 80px);
+            }
         }
         @media only screen and (max-width: 450px) {
             .header__logo {
@@ -638,9 +647,8 @@ main {
                 .row-top__phone-image {
                     display: none;
                 }
-                
                 .row-top__content--home {
-                    height: calc(100vh - 240px);
+                    height: calc(100vh - 80px);
                 }
             }
         }
