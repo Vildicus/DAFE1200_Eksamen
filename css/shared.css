@@ -504,7 +504,7 @@ main {
     }
     .row-top__car-train-image {
         height: 160px;
-        object-fit: contain;
+        object-fit: cover;
     }
     .row-top__phone-image {
         /*  background-image: url(../img/App_homepage_mockup.png);*/
