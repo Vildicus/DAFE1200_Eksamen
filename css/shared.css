@@ -549,8 +549,8 @@ main {
         .row-top__car-train-image {
             display: none;
         }
-       /* .row-top__content--home {
-            height: calc(100vh - 90px);*/
+       .row-top__content--home {
+            height: calc(100vh - 90px);
         }
         .row-top__phone-image {
             display: none;
