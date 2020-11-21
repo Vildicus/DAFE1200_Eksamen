@@ -502,7 +502,7 @@ main {
     }
     .row-top__content--home {
         background-image: none;
-        height: calc(100vh - 175px);
+        height: calc(100vh - 275px);
     }
     .row-top__car-train-image-container {
         display: block;
@@ -567,7 +567,7 @@ main {
         .header__logo {
             width: 50px;
             padding-top: 4px;
-        }
+        }      
 
         .header__link-container {
             margin-right: 0;
