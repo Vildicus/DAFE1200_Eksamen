@@ -502,7 +502,7 @@ main {
     }
     .row-top__content--home {
         background-image: none;
-        height: calc(100vh - 275px);
+        height: calc(100vh - 260px);
     }
     .row-top__car-train-image-container {
         display: block;
@@ -584,8 +584,7 @@ main {
             height: calc(100vh - 80px);
         }
         .row-top__content--home {
-            background-image: none;
-            height: calc(100vh - 275px);
+            height: calc(100vh - 240px);
         }
         
 
@@ -606,11 +605,7 @@ main {
             width: 100%;
             text-align: left;
         }
-        @media only screen and (max-height: 700px) {
-            .row-top__phone-image {
-                display: none;
-            }
-        }
+       
         @media only screen and (max-width: 450px) {
             .header__logo {
                 margin: 0px 0 0px 50px;
@@ -656,6 +651,9 @@ main {
                 }
                 .row-top__content {
                     height: calc(100vh - 80px);
+                }
+                .row-top__content--home {
+                    height: calc(100vh - 240px);
                 }
             }
         }
