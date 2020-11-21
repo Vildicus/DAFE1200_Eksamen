@@ -382,7 +382,7 @@ main {
 }
 
 .background-image-container--minipods {
-    background-color:white;
+    background-color:#f2ffd5;
     background-image: url(../img/Vei_illustrasjon.png);
     height: min(40vw, 450px);
     background-size: contain;
