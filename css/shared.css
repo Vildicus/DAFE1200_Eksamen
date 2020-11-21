@@ -366,11 +366,12 @@ main {
 }
 
 .background-image-container {
-    height: 450px;
+    background: white;
+    height: min(40vw, 450px);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat
 }
 
 .background-image-container--bilko {
@@ -383,6 +384,7 @@ main {
 
 .background-image-container--minipods {
     background-image: url(../img/Vei_illustrasjon.png);
+    background-image: url(../img/Vei_illustrasjon2.png);
 }
 
 .background-image-container--busstop {
