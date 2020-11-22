@@ -259,6 +259,7 @@ main {
 
 .text-container__paragraph {
     font-size: 16px;
+    font-size: max(min(2.5vh, 2.5vw, 25px), 14px);
     margin-top: -15px;
     line-height: 1.5;
 }
@@ -270,7 +271,8 @@ main {
 .text-container__paragraph__signature {
     text-align: left;
     margin-top: -10px;
-    font-size: max(min(2vh, 2vw), 13px);
+    font-size: 16px;
+    font-size: max(min(2.9vh, 2.9vw, 25px), 14px);
 }
 
 .text-container__button {
@@ -599,9 +601,7 @@ main {
                 .row-top__content {
                     padding: 0 25px;
                 }
-                .row-top__phone-image {
-                    display: none;
-                }
+                
             }
         }
     }
