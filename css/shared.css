@@ -501,7 +501,7 @@ main {
         object-fit: cover;
     }
     .row-top__phone-image {
-                background-repeat: no-repeat;
+        background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: center;
     }
@@ -553,10 +553,6 @@ main {
         .header__link--home {
             display: none;
         }
-       
-        .row-top__content--home {
-            height: calc(80vh - 100px);
-        }
         .image-container__red-circle {
             width: 70%;
         }
@@ -569,12 +565,6 @@ main {
         .footer__text {
             width: 100%;
             text-align: left;
-        }
-        @media only screen and (max-height: 400px) {
-            /* bare hvis over 400 høy */
-            .row-top__content--home {
-                height: calc(100vh - 100px);
-            }
         }
         @media only screen and (max-width: 450px) {
             .header__logo {
@@ -611,9 +601,6 @@ main {
                 }
                 .row-top__phone-image {
                     display: none;
-                }
-                .row-top__content--home {
-                    height: calc(80vh - 100px);
                 }
             }
         }
