@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-    /* backup 60px */
+    /* backup 50px */
     font-size: 60px;
     /* Den minste verdien av disse for å støtte både høye og brede skjermer */
     font-size: max(min(8.7vh, 8.7vw, 70px), 44px);
@@ -258,6 +258,7 @@ main {
 }
 
 .text-container__paragraph {
+    /*Back up 16px*/
     font-size: 16px;
     font-size: max(min(2.5vh, 2.5vw, 20px), 16px);
     margin-top: -15px;
@@ -281,8 +282,8 @@ main {
     background: rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px #bbbbbb;
     padding: 20px;
-    width: 250px;
     /* For nettlesere uten fit-content (eks ie11) */
+    width: 250px;
     width: fit-content;
     height: 60px;
     font-family: lato-bold, Arial, Helvetica, sans-serif;
@@ -414,6 +415,7 @@ main {
         transform: translateY(-5px) rotate(45deg);
     }
 }
+/*Arrow bades on https://www.w3schools.com/howto/howto_css_arrows.asp*/
 
 .scroll-down-container__arrow {
     border: solid rgb(230, 0, 0);
