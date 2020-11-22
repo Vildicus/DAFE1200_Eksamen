@@ -56,7 +56,7 @@ main {
     /* backup 20px */
     font-size: 20px;
     /* Den minste verdien av disse for å støtte både høye og brede skjermer */
-    font-size: max(min(2.9vh, 2.9vw, 25px), 14px);
+    font-size: max(min(2.9vh, 2.9vw, 25px), 16px);
 }
 
 .top_p--white-background {
@@ -259,7 +259,7 @@ main {
 
 .text-container__paragraph {
     font-size: 16px;
-    font-size: max(min(2.5vh, 2.5vw, 25px), 14px);
+    font-size: max(min(2.5vh, 2.5vw, 20px), 16px);
     margin-top: -15px;
     line-height: 1.5;
 }
@@ -272,7 +272,7 @@ main {
     text-align: left;
     margin-top: -10px;
     font-size: 16px;
-    font-size: max(min(2.9vh, 2.9vw, 25px), 14px);
+    font-size: max(min(2.9vh, 2.9vw, 25px), 16px);
 }
 
 .text-container__button {
