@@ -487,7 +487,6 @@ main {
         background-image: none;
         display: flex;
         flex-direction: column;
-        height: calc(100vh - 100px);
         padding: 0px 80px;
     }
     .row-top__content--home {
@@ -502,9 +501,7 @@ main {
         object-fit: cover;
     }
     .row-top__phone-image {
-        /*  background-image: url(../img/App_homepage_mockup.png);*/
-        /* flex: 1;*/
-        background-repeat: no-repeat;
+                background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: center;
     }
@@ -542,7 +539,7 @@ main {
             display: none;
         }
         .row-top__content--home {
-            height: calc(100vh - 90px);
+            height: calc(100vh - 100px);
         }
     }
     @media only screen and (max-width: 700px) {
@@ -556,9 +553,7 @@ main {
         .header__link--home {
             display: none;
         }
-        .row-top__content {
-            height: calc(100vh - 80px);
-        }
+       
         .row-top__content--home {
             height: calc(80vh - 100px);
         }
@@ -578,7 +573,7 @@ main {
         @media only screen and (max-height: 400px) {
             /* bare hvis over 400 høy */
             .row-top__content--home {
-                height: calc(100vh - 80px);
+                height: calc(100vh - 100px);
             }
         }
         @media only screen and (max-width: 450px) {
@@ -613,13 +608,12 @@ main {
                 }
                 .row-top__content {
                     padding: 0 25px;
-                    height: calc(100vh - 80px);
                 }
                 .row-top__phone-image {
                     display: none;
                 }
                 .row-top__content--home {
-                    height: calc(100vh - 80px);
+                    height: calc(80vh - 100px);
                 }
             }
         }
