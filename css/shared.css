@@ -160,7 +160,6 @@ main {
 
 .row-top__content {
     height: calc(100vh - 100px);
-    height: calc(-webkit-fill-available - 100px);
     padding: 0px 100px;
     display: flex;
     align-items: center;
@@ -497,7 +496,6 @@ main {
     .row-top__content--home {
         background-image: none;
         height: calc(80vh - 100px);
-        height: calc(-webkit-fill-available - 20vh - 100px);
     }
     .row-top__car-train-image-container {
         display: block;
@@ -546,7 +544,6 @@ main {
         }
         .row-top__content--home {
             height: calc(100vh - 100px);
-            height: calc(-webkit-fill-available - 100px);
         }
     }
     @media only screen and (max-width: 700px) {
