@@ -26,19 +26,19 @@ body {
 }
 
 h1 {
-    /* backup 60px */
+    /* backup 50px */
     font-size: 60px;
     /* Den minste verdien av disse for å støtte både høye og brede skjermer */
-    font-size: max(min(8.7vh, 8.7vw, 70px), 45px);
+    font-size: max(min(8.7vh, 8.7vw, 70px), 44px);
     font-weight: 800;
     line-height: 1.1;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 h2 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 42px;
+    font-size: 41px;
     font-weight: 800;
     line-height: 1.1;
 }
@@ -56,7 +56,7 @@ main {
     /* backup 20px */
     font-size: 20px;
     /* Den minste verdien av disse for å støtte både høye og brede skjermer */
-    font-size: max(min(2.9vh, 2.9vw, 25px), 14px);
+    font-size: max(min(2.9vh, 2.9vw, 25px), 16px);
 }
 
 .top_p--white-background {
@@ -105,7 +105,6 @@ main {
     color: black;
     text-decoration: none;
 }
-
 
 .header__link:link {
     color: black;
@@ -162,6 +161,8 @@ main {
 .row-top__content {
     height: calc(100vh - 100px);
     padding: 0px 100px;
+    display: flex;
+    align-items: center;
 }
 
 .row-top__content--home {
@@ -221,7 +222,7 @@ main {
 .text-container {
     width: 50%;
     float: right;
-    padding: 0px 0px 0px 50px;
+    padding-left: 50px;
 }
 
 .text-container--center {
@@ -237,10 +238,8 @@ main {
 }
 
 .text-container--top {
-    flex: auto;
-    align-items: center;
     float: left;
-    padding: 80px 0px 0px 60px;
+    padding: 0px 0px 0px 60px;
     z-index: 1;
 }
 
@@ -259,7 +258,9 @@ main {
 }
 
 .text-container__paragraph {
+    /*Back up 16px*/
     font-size: 16px;
+    font-size: max(min(2.5vh, 2.5vw, 20px), 16px);
     margin-top: -15px;
     line-height: 1.5;
 }
@@ -271,7 +272,8 @@ main {
 .text-container__paragraph__signature {
     text-align: left;
     margin-top: -10px;
-    font-size: max(min(2vh, 2vw), 13px);
+    font-size: 16px;
+    font-size: max(min(2.9vh, 2.9vw, 25px), 16px);
 }
 
 .text-container__button {
@@ -280,8 +282,8 @@ main {
     background: rgb(230, 0, 0);
     box-shadow: 3px 3px 6px 0px #bbbbbb;
     padding: 20px;
-    width: 250px;
     /* For nettlesere uten fit-content (eks ie11) */
+    width: 250px;
     width: fit-content;
     height: 60px;
     font-family: lato-bold, Arial, Helvetica, sans-serif;
@@ -385,14 +387,14 @@ main {
 }
 
 .background-image-container--minipods {
-    background-color:#f2ffd5;
+    background-color: #f2ffd5;
     background-image: url(../img/Vei_illustrasjon.png);
     height: min(40vw, 450px);
     background-size: contain;
 }
 
 .background-image-container--busstop {
-    background-color:white;
+    background-color: white;
     background-image: url(../img/Busstopp_foto.png);
     height: min(40vw, 450px);
     background-size: contain;
@@ -413,6 +415,7 @@ main {
         transform: translateY(-5px) rotate(45deg);
     }
 }
+/*Arrow bades on https://www.w3schools.com/howto/howto_css_arrows.asp*/
 
 .scroll-down-container__arrow {
     border: solid rgb(230, 0, 0);
@@ -460,60 +463,48 @@ main {
     font-size: 14px;
     line-height: 1.5;
 }
+
 @media only screen and (min-width: 1300px) {
     .header {
         height: 60px;
     }
-
     .header__logo {
         width: 130px;
     }
-
-    .header__link{
+    .header__link {
         font-size: 20px;
     }
-
 }
 
-@media only screen and (max-width: 950px) {
-    main {
-        margin-top: 40px;
-    }
-    .header {
-        height: 40px;
-    }
+@media only screen and (max-width: 973px) {
     .header__logo {
         width: 80px;
+        padding-top: 11px;
     }
     .header__link-container {
         margin-right: 110px;
     }
-    .header__link {
-        padding: 9px 16px;
-        font-size: 16px;
+    .row {
+        padding: 0px 80px;
     }
-
-
     .row-top__content {
         background-image: none;
         display: flex;
         flex-direction: column;
-        height: calc(100vh - 90px);
+        padding: 0px 80px;
     }
     .row-top__content--home {
         background-image: none;
-        height: calc(100vh - 275px);
+        height: calc(80vh - 100px);
     }
     .row-top__car-train-image-container {
         display: block;
     }
     .row-top__car-train-image {
-        height: 80px;
+        height: 20vh;
         object-fit: cover;
     }
     .row-top__phone-image {
-      /*  background-image: url(../img/App_homepage_mockup.png);*/
-       /* flex: 1;*/
         background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: center;
@@ -526,6 +517,10 @@ main {
     .text-container {
         width: 100%;
         text-align: left;
+        padding: 0;
+    }
+    .text-container--top {
+        padding: 60px 0 0 0;
     }
     .text-container--with-blob {
         width: calc(100% - 45px);
@@ -540,60 +535,34 @@ main {
         width: 100%;
         padding: 0;
     }
-
     .image-container__red-circle {
         width: 50%;
-}
-
+    }
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
             display: none;
         }
         .row-top__content--home {
-            height: calc(100vh - 90px);
-        }
-        .row-top__phone-image {
-            display: none;
+            height: calc(100vh - 100px);
         }
     }
     @media only screen and (max-width: 700px) {
-        main {
-            margin-top: 30px;
-        }
-        .header {
-            height: 30px;
-        }
         .header__logo {
-            width: 50px;
-            padding-top: 4px;
+            margin-left: 40px;
         }
-
         .header__link-container {
             margin-right: 0;
-            text-align: left;
-            margin-left: 160px;
+            margin-left: 0px;
         }
-        .header__link {
-            padding: 5px 10px;
-            font-size: 12px;
-        }
-        .header__link--home{
+        .header__link--home {
             display: none;
-            }
-        .row-top__content {
-            height: calc(100vh - 80px);
         }
-
-    .image-container__red-circle {
-        width: 70%;
-}
-        @media only screen and (min-height: 400px) {
-            /* bare hvis over 400 høy */
-            .row-top__content--home {
-                height: calc(100vh - 155px);
-            }
+        .image-container__red-circle {
+            width: 70%;
         }
-
+        .text-container--top {
+            padding: 50px 0 0 0;
+        }
         .text-container__button--footer {
             margin: 0;
         }
@@ -601,21 +570,14 @@ main {
             width: 100%;
             text-align: left;
         }
-        @media only screen and (max-height: 700px) {
-            .row-top__phone-image {
-                display: none;
-            }
-        }
         @media only screen and (max-width: 450px) {
             .header__logo {
-                margin: 0px 0 0px 50px;
-            }
-            .header__link-container {
-                margin-left: 115px;
+                margin-left: 20px;
             }
             .header__link {
-                padding: 5px 5px;
-                font-size: 13px;
+                padding-left: 5px;
+                padding-right: 5px;
+                font-size: 16px;
             }
             .row {
                 padding: 25px 50px;
@@ -631,14 +593,9 @@ main {
             }
             @media only screen and (max-width: 350px) {
                 .header__logo {
-                    margin: 0px 0 0px 25px;
-                }
-                .header__link-container {
-                    margin-left: 90px;
-                }
-                .header__link {
-                    padding: 5px 5px;
-                    font-size: 14px;
+                    margin: 0px 0 0px 10px;
+                    width: 60px;
+                    padding-top: 14px;
                 }
                 .row {
                     padding: 25px 25px;
@@ -646,17 +603,8 @@ main {
                 .row-top__content {
                     padding: 0 25px;
                 }
-                .row-top__phone-image {
-                    display: none;
-                }
-                .row-top__content {
-                    height: calc(100vh - 80px);
-                }
+                
             }
         }
     }
-}
-
-html {
-    scroll-behavior: smooth;
 }
