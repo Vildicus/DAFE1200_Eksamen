@@ -538,6 +538,19 @@ main {
     .image-container__red-circle {
         width: 50%;
     }
+
+    .background-image-container--bilko {
+        background-image: url(../img/Bilkø_mindre.png);
+    }
+    
+    .background-image-container-city {
+        background-image: url(../img/Bybilde_mindre.png);
+    }
+    
+    .background-image-container--busstop {
+        background-color: white;
+        background-image: url(../img/Busstopp_foto_mindre.png);
+    }
     @media only screen and (max-height: 400px) {
         .row-top__car-train-image {
             display: none;

@@ -17,7 +17,12 @@
 
         <a class="header__logo" href="index.html">
             <!-- Plasser logo her -->
-            <img src="img/AutoBy_Final.png" alt="Autoby's logo" title="Go to home page"> </img>
+            <picture>
+                <source media="(max-width:350px)" srcset="img/AutoBy_Final_60.png">
+                <source media="(max-width:973px)" srcset="img/AutoBy_Final_80.png">
+                <source media="(max-width:1299px)" srcset="img/AutoBy_Final_100.png">
+                <img src="img/AutoBy_Final.png" alt="Autoby's logo"> </img>
+            </picture>
         </a>
         <div class="header__link-container">
             <a class="header__link header__link--home" aria-hidden="true" href="index.html"> Home </a>
